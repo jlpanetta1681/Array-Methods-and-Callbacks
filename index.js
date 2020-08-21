@@ -23,14 +23,16 @@ console.log(final2014[0]["Win conditions"])
 
 /* Task 2: Create a function called  getFinals that takes `data` as an argument and returns an array of objects with only finals data */
 const newArr = [];
-function getFinals(arr){
-for(let i =0; i < arr.length; i++);
-if(arr[i].stage === 'Finals');{
-  newArr.push(arr[i].stage);
+function getFinals(data){
+for(var i = 0; i < arr.length; i++);
+  if(data[i].'stage' === 'Finals');{
+      newArr.push(data[i].stage);
+      return newArr;
+      
+  };
 
 }
-}
-getFinals(fifaData)
+getFinals(fifaData);
 
 
 /* Task 3: Implement a higher-order function called `getYears` that accepts the callback function `getFinals`, and returns an array called `years` containing all of the years in the dataset */
